@@ -3,17 +3,18 @@
   <head>
     <title>Socket.io Chat App</title>
     <!-- import the client library -->
-    //<script src="/socket.io/socket.io.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.4/socket.io.js"
-        integrity="sha512-YeeA/Qxn5hYdkukScTCNNOhTrv1C2RubAGButJ1rmgQwZf/HdRaCGl+JAVkqsqaNRaYNHdheiuKKuPf9mDcqKg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+   
   </head>
 <body>
     <h1>Socket.io Chat App</h1>
     <input id="text" type="text">
     <button id="send">Send</button>
     <div id="chat"></div>
+  <!-- <script src="/socket.io/socket.io.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.4/socket.io.js"
+    integrity="sha512-YeeA/Qxn5hYdkukScTCNNOhTrv1C2RubAGButJ1rmgQwZf/HdRaCGl+JAVkqsqaNRaYNHdheiuKKuPf9mDcqKg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <script>
       function addToChat(message) {
         const chat = document.getElementById('chat')
